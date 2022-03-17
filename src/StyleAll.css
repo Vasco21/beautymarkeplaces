@@ -1,0 +1,24 @@
+.productHeader h1{
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    justify-content:center;
+    padding-top: 30px;
+    padding-bottom:5px; 
+}
+.p{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.backgroundColor{
+    background-color: darkgray;
+    height: 100vh;
+    
+}

@@ -1,0 +1,139 @@
+.padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-me h1{
+  padding-top:40px ;
+  color: white;
+  text-transform: uppercase;  
+  text-align: center;
+  font-family: cursive;
+}
+.twelve{
+  display: flex;
+  color: white;
+  justify-content:center;
+  align-items:center;
+  margin:2.5rem;
+}
+.about-container{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin:2.5rem;
+}
+.btnName{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-container h1{
+  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  justify-content:center;
+  padding-top: 30px;
+  padding-bottom:5px; 
+}
+
+.about-img img{
+  margin-top: 1rem;
+  height: 520px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding:10px;
+  margin: 25px 10px;
+        
+}
+.about-img img:hover{
+      box-shadow:0px 0px 9px  #F57F17;
+  }
+.row{
+  justify-content:center;
+  align-items:center;
+  margin:2.5rem;
+}
+
+@media screen and (max-width: 1110px){
+  .about-container{
+      flex-direction: column;
+      margin: 2.5em;
+  }
+  .twelve{
+    display: flex; 
+  }
+  .about-container h1{
+      font-size: 25px;
+      margin-bottom: 0rem;
+  }
+ 
+  
+  .about-img img{
+      width: 420px;
+      height: 400px;
+      padding: 0px
+  }
+} 
+
+
+@media screen and (max-width: 880px){
+  .about-img img{
+      width: 300px;
+      height: 300px;
+  }
+  .about-container{
+      margin: 1rem;
+  }
+
+}
+@media screen and (max-width: 590px){
+  .twelve{
+    display: inline;
+  }
+  .about-main{
+    padding-top:30px;
+  }
+  .about-img img{
+      width: 300px;;
+      height:300px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .twelve{
+    display: inline;
+  }
+  .about-main{
+    padding-top:30px;
+    margin: 0;
+    padding:0;
+
+  }
+  .about-img img{
+      width: 300px;;
+      height:300px;
+  }
+}
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+ 
+  
+ 
+  

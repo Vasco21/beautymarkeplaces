@@ -1,0 +1,116 @@
+.paddings{
+  padding-top: 40px;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size:30px;
+  font-family: "Poppins SemiBold";
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-5);
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--clr-white);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--warning);
+  transform: rotate(90deg);
+}
+.logo {
+  height: 30px;
+  color: var(--warning);
+  font-family: 'Poppins', sans-serif;
+}
+.links a {
+  font-family: 'Poppins', sans-serif;
+  color: var(--clr-white);
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+  text-decoration: none;
+}
+.links a:hover {
+  background: var(--clr-grey-5);
+  color: var(--orange);
+  padding-left: 1.5rem;
+}
+.socials-icons {
+  display: none;
+}
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.show-container {
+  height: 10rem;
+}
+@media screen and (min-width: 800px) {
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .socials-icons {
+    display: flex;
+  }
+  .socials-icons a {
+    margin: 0 0.5rem;
+    color: var(--clr-white);
+    transition: var(--transition);
+  }
+  .socials-icons a:hover {
+    color: var(--pink);
+  }
+}
